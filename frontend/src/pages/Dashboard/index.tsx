@@ -3,6 +3,7 @@ import DataTable from "components/DataTable";
 import DonutChart from "components/DonutChart";
 import Footer from "components/Footer";
 import NavBar from "components/navbar";
+import { Link } from "react-router-dom";
 
 
 const Dashboard = () => {
@@ -28,6 +29,10 @@ const Dashboard = () => {
                 </div>
 
                 <DataTable />
+
+                <Link className="btn btn-primary btn-lg" to="/">
+                    Voltar
+                </Link>
 
             </div>
 
