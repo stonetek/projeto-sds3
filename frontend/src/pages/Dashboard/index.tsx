@@ -31,7 +31,7 @@ const Dashboard = () => {
                 <DataTable />
 
                 <Link className="btn btn-primary btn-lg" to="/">
-                    Voltar
+                    Home
                 </Link>
 
             </div>
