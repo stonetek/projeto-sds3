@@ -32,3 +32,9 @@ body {
 .text-primary {
     color: var(--color-primary) !important;
 }
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}

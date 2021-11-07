@@ -4,7 +4,7 @@ import DonutChart from "components/DonutChart";
 import Footer from "components/Footer";
 import NavBar from "components/navbar";
 import { Link } from "react-router-dom";
-
+import Home from "assets/img/home.jpeg";
 
 const Dashboard = () => {
     return (
@@ -30,9 +30,14 @@ const Dashboard = () => {
 
                 <DataTable />
 
-                <Link className="btn btn-primary btn-lg" to="/">
-                    Home
-                </Link>
+
+                <div className="container" >
+                    <nav className="my-2 my-md-0 mr-md-3">
+                        <Link to="/">
+                            <img className="displayed" src={Home} alt="DevSuperior" width="60" />
+                        </Link>
+                    </nav>
+                </div>
 
             </div>
 
